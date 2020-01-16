@@ -64,3 +64,53 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.logo{
+margin:5% 5% 5% 50%;
+}
+body nav a{
+	margin: 5% 5% 5% 5%
+}
+.top{
+	text-align: center;
+	font-size: 80px;
+	margin:0 0 0 0;
+}
+.first-pic{
+margin:0 0 0 70%
+}
+.pic{
+	margin:5% 5% 5% 0%;
+}
+.top-section{
+	box-sizing: border-box;
+	border: 2px solid red;
+}
+.bottom-section{
+	box-sizing: border-box;
+	border: 2px solid red;
+}
+.contact{
+	box-sizing: border-box;
+	border: 2px solid red
+}
+.one{
+	box-sizing: border-box;
+	border: 2% solid red;
+	margin:0 1;
+	text-align: left;
+}
+.two{
+	box-sizing: border-box;
+	border: 2% solid red;
+	margin:0 1;
+	text-align: right;
+
+}
+.three{
+	box-sizing: border-box;
+	border: 2px solid red;
+}
+.four{
+	box-sizing: border-box;
+	border: 2px solid red;
+}
