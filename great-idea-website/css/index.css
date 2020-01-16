@@ -64,8 +64,13 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	max-width: 100%;
+}
 .logo{
-margin:5% 5% 5% 50%;
+text-align: right;
+	margin:0% 0% 0% 75%;
+
 }
 body nav a{
 	margin: 5% 5% 5% 5%
@@ -75,42 +80,83 @@ body nav a{
 	font-size: 80px;
 	margin:0 0 0 0;
 }
+.top button{
+	font-size: 50px;
+}
 .first-pic{
-margin:0 0 0 70%
+text-align: right; 
 }
 .pic{
 	margin:5% 5% 5% 0%;
 }
 .top-section{
 	box-sizing: border-box;
-	border: 2px solid red;
+	border-top: 2px solid black;
+	margin: 5%;
+	font-size: 20px;
+	columns: 100px 2;
 }
+.feat{
+	font-size: 25px;
+	font-style: bold;
+	margin: 3%;
+}
+.about{
+	font-size: 25px;
+	font-style: bold;
+	margin: 5% 3% 3% 3%;
+}
+
+
 .bottom-section{
-	box-sizing: border-box;
-	border: 2px solid red;
+	
+	margin: 5%;
+	font-size: 20px;
+	columns: 100px 3;
+}
+.services{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 3%;
+}
+.product{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 3%;
+}
+.vision{
+	font-size: 25px;
+	font-weight: bold;
+	margin: 3%;
 }
 .contact{
-	box-sizing: border-box;
-	border: 2px solid red
+
+	font-size: 20px;
+	columns: 100px 1;
+	
+}
+.con{
+	border-top: solid black;
+	font-weight: bold;
+	margin: 3% 0 2% 0;
 }
 .one{
-	box-sizing: border-box;
-	border: 2% solid red;
+	
 	margin:0 1;
 	text-align: left;
 }
 .two{
-	box-sizing: border-box;
-	border: 2% solid red;
+	
 	margin:0 1;
 	text-align: right;
 
 }
 .three{
-	box-sizing: border-box;
-	border: 2px solid red;
+	
 }
 .four{
-	box-sizing: border-box;
-	border: 2px solid red;
+	
+}
+footer{
+	margin:5%
 }
